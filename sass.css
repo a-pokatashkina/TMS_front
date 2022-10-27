@@ -1,0 +1,110 @@
+.about-itam {
+  width: 25%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  max-width: 270px;
+}
+.about-itam h3 {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  margin-top: 30px;
+}
+.about-itam span {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-transform: uppercase;
+  padding-bottom: 17px;
+  padding-top: 8px;
+  color: #FF4343;
+}
+.about-itam p {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #6C7279;
+}
+
+.social {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 37px;
+}
+.social div {
+  border: 1px solid #c6cbcd;
+  padding: 5px;
+  width: 39px;
+  height: 39px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 7px;
+}
+
+@media (max-width: 1280px) {
+  .about-itam {
+    width: 23%;
+    margin: 0 10px;
+  }
+  .about-itam span {
+    font-size: 14px;
+  }
+  .about-itam h3 {
+    font-size: 18px;
+  }
+  .about-itam p {
+    font-size: 14px;
+  }
+}
+@media (max-width: 768px) {
+  .about-itam {
+    width: 100%;
+    margin: 0 10px 50px;
+  }
+  .about-itam h3 {
+    font-size: 18px;
+    line-height: 21px;
+    margin-top: 21px;
+  }
+  .about-itam span {
+    padding-bottom: 32px;
+    padding-top: 0px;
+    font-size: 14px;
+    line-height: 16px;
+  }
+}
